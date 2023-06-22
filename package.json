@@ -1,0 +1,18 @@
+{
+  "name": "@recaptime-dev/squad-wiki",
+  "version": "0.1.0",
+  "description": "An reincarnation of the handbook repository, but the entirety of Recap Time Squad Wiki in Markdown during possible Miraheze shutdown and migration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mau.dev/RecapTime/squad-wiki"
+  },
+  "author": "",
+  "license": "MPL-2.0 AND CC-BY-SA-4.0",
+  "devDependencies": {
+    "netlify-cli": "^15.6.0"
+  }
+}

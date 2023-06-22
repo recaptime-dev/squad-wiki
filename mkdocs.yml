@@ -1,0 +1,103 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+# Project information, site metadata
+site_name: RecapTime.dev Wiki
+site_url: "https://squad.lorebooks.eu.org"
+site_author: Recap Time Squad and contributors
+site_description: >-
+  The squad wiki, consists of both the team handbook, our organizational documents,
+  and more.
+
+# Lock the use-directory-urls flag
+use_directory_urls: true
+
+# Repository
+docs_dir: content
+repo_url: https://mau.dev/lorebooks.wiki/homepage
+repo_name: source at Maunium GitLab
+edit_uri: blob/main/content/
+
+# Copyright
+copyright: >-
+  Copyright &copy; 2023-present Recap Time Squad (formerly The Pins Team) and its contributors,
+  licensed under CC BY-SA 4.0 for Markdown content and original media and MPL-2.0 for code,
+  unless otherwise specified.
+
+theme:
+  # https://github.com/squidfunk/mkdocs-material
+  name: material
+
+  # for the sidebar/site icon on navbar
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/gitlab
+
+  # theme for different themes
+  # TODO: Match with our color platte on logo.
+  palette:
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: 
+    - index.md
+    - About the website: about.md
+    - Contribute:
+      - Getting started: contribute/index.md
+      - Local development: contribute/localdev.md
+      - Contributing to handbook: handbook/contribute.md
+  - Squad Handbook:
+    - handbook/index.md
+  - Community:
+    - Projects:
+      - Community Lores: projects/lorebooks.wiki.md

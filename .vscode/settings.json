@@ -1,0 +1,10 @@
+{
+    "git.ignoreLimitWarning": true,
+    "git.alwaysSignOff": true,
+    "gitlens.remotes": [
+        {
+            "domain": "mau.dev",
+            "type": "GitLab"
+        }
+    ]
+}
