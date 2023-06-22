@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - directory: /
+    open-pull-requests-limit: 5
+    package-ecosystem: "github-actions"
+    rebase-strategy: auto
+    schedule:
+      interveral: "weekly"
+    assignees:
+      - RecapTimeSquad
+    reviewers:
+      - ajhalili2006
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - RecapTimeSquad
+    reviewers:
+      - ajhalili2006
