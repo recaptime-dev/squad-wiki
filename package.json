@@ -4,7 +4,8 @@
   "description": "An reincarnation of the handbook repository, but the entirety of Recap Time Squad Wiki in Markdown during possible Miraheze shutdown and migration.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./.venv/bin/mkdocs serve --use-directory-urls --dirtyreload",
+    "build": "./scripts/build.sh"
   },
   "repository": {
     "type": "git",

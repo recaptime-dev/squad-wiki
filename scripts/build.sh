@@ -9,4 +9,4 @@ pip3 install -r requirements.txt --upgrade
 
 mkdocs build --verbose
 
-cp -v content/.well-known site/.well-known
+cp -vr content/.well-known site/.well-known
