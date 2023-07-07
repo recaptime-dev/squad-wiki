@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/recaptimesquad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://suqad.lorebooks.eu.org
+  * I am recaptimesquad (https://keybase.io/recaptimesquad) on keybase.
+  * I have a public key ASD5Z_SGWaU_F8XgJF8NqC_7VbiqF2hJIUiKsDXFQI9afgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012043899bd2bbb4019ac241cf818d1f3e103f14eea70861a86eac8c0af5c94f204d0a",
+      "host": "keybase.io",
+      "kid": "0120f967f48659a53f17c5e0245f0da82ffb55b8aa17684921488ab035c5408f5a7e0a",
+      "uid": "e2c356322df984f65e719c4026c12219",
+      "username": "recaptimesquad"
+    },
+    "merkle_root": {
+      "ctime": 1688739710,
+      "hash": "0b8b7b8c0478f86059b0d24c57dc9eaf06b279c62f7bebf102569080bca886e1af1bbd7626474d9441e91dae0e14afccd5baa6b7e76b9678134d0ff6f9f575d2",
+      "hash_meta": "4e2c8cb92b78280c876001652074b585956966def5f91cdd44c29c99f5a98f99",
+      "seqno": 24656608
+    },
+    "service": {
+      "entropy": "yVA7tv/EaZ+C5uFYFW1kd+Ar",
+      "hostname": "suqad.lorebooks.eu.org",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1688748488,
+  "expire_in": 504576000,
+  "prev": "1f6a3ff7d8541aa5959214e20e4491a126cd3cf7cf4c9956184f389e1a8cbc84",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+Wf0hlmlPxfF4CRfDagv+1W4qhdoSSFIirA1xUCPWn4Kp3BheWxvYWTESpcCJ8QgH2o/99hUGqWVkhTiDkSRoSbNPPfPTJlWGE84nhqMvITEIBMRoDRYkXr3xMdSRbMW2e/vwEOuzxsP7verWv9ji7XiAgHCo3NpZ8RARUf+cdxyHCi2h9CEuNMniGalMjFR7IX53Gpg6/JiXNvsxehyt1qarZqUro2dQWa9G2dJ07AhSjS6wrDJBjb5CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKuLy2GOVO7bSPsW9f+QZoGRtRYIO1UzIapO0t6GFg0Fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/recaptimesquad
+
+==================================================================
