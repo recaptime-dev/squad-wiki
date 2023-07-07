@@ -13,7 +13,7 @@ use_directory_urls: true
 
 # Repository
 docs_dir: content
-repo_url: https://mau.dev/lorebooks.wiki/homepage
+repo_url: https://mau.dev/RecapTime/squad/squad-wiki
 repo_name: source at Maunium GitLab
 edit_uri: blob/main/content/
 
@@ -98,6 +98,8 @@ nav:
       - Contributing to handbook: handbook/contribute.md
   - Squad Handbook:
     - handbook/index.md
+    - About and History: handbook/about.md
+    - Changelog: handbook/changelog.md
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md

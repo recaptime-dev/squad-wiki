@@ -2,4 +2,9 @@
 /wiki/Handbook:Contents /handbook
 /wiki/User:* https://profiles.loreooks.eu.org/:splat
 /wiki/Portal:Contact_Squad https://recaptime.eu.org/contact
+
+# keybase proofs
 /keybase.txt /.well-known/keybase.txt
+
+# quick golinks
+/go/internal-handbook-docs /handbook/handbook-usage#internal-handbook
