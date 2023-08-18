@@ -1,5 +1,5 @@
 # mkdocs related
-mkdocs-material==9.1.18
+mkdocs-material==9.1.21
 mkdocs-material-extensions
 mkdocs-minify-plugin
 mkdocs-redirects

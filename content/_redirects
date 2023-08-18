@@ -5,6 +5,10 @@
 
 # keybase proofs
 /keybase.txt /.well-known/keybase.txt
+/security.txt https://recaptime.eu.org/.well-known/security.txt
+/.well-known/security.txt https://recaptime.eu.org/.well-known/security.txt
 
 # quick golinks
-/go/internal-handbook-docs /handbook/handbook-usage#internal-handbook
+/go/internal-handbook /handbook/handbook-usage#internal-handbook
+/go/onboarding /handbook/company/general-onboarding.md
+/go/coc https://policies.recaptime.eu.org/coc

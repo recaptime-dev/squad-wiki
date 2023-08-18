@@ -17,6 +17,10 @@ what we do in DIB (Diversity, Inclusion and Belonging).
 * `#recaptimesquad-staff-it_support` - Any IT related support, such as issues with your squad email address, SSO, etc.
 * `#recaptimesquad-staff-watercooler` - General chitchat for squad members.
 
+### Bridge mappings to other apps
+
+!!!
+
 ## Managers of New Crewmates
 
 TODO
