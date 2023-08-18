@@ -12,14 +12,14 @@ For internal version of the handbook, go to [our internal wiki](https://internal
 
 **General quick links**: [Subgroup README](https://mau.dev/RecapTime/squad/gitlab-profile/blob/main/README.md) | [Public Issue tracker](https://mau.dev/RecapTime/squad/issue-tracker/issues) - [sourcehut version](https://todo.sr.ht/~recaptime-dev/) - [Internal issue tracker](https://recaptime.jetbrains.space)
 
-* [About the squad](/organization.md)
-    * [History](/organization/history.md)
-* [Handbook](/handbook/about.md)
-    * [How to Use](/handbook/handbook-usage.md)
-    * [Handbook Style Guide](/style-guide/handbook.md)
-    * [CHANGELOGs for Handbook](/handbook/changelog.md)
-* [Culture](/organization/culture)
-    * [Community Code of Conduct](/community/code-of-conduct) - this applies even to squad members, in addition to regular org policies and BCoCE.
+* [About the squad](../organization/index.md)
+    * [History](../organization/history.md)
+* [Handbook](./about/index.md)
+    * [How to Use](./handbook-usage.md)
+    * [Handbook Style Guide](../style-guide/handbook.md)
+    * [CHANGELOGs for Handbook](../handbook/changelog.md)
+* [Culture](../organization/culture)
+    * [Community Code of Conduct](../community/code-of-conduct.md) - this applies even to squad members, in addition to regular org policies and BCoCE.
 
 ## Engineering and Open-source
 
