@@ -13,7 +13,7 @@ use_directory_urls: true
 
 # Repository
 docs_dir: content
-repo_url: https://mau.dev/RecapTime/squad/squad-wiki
+repo_url: https://mau.dev/recaptime-dev/squad/wiki
 repo_name: source at Maunium GitLab
 edit_uri: blob/main/content/
 
@@ -31,6 +31,32 @@ theme:
   icon:
     logo: material/library
     repo: fontawesome/brands/gitlab
+
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
 
   # theme for different themes
   # TODO: Match with our color platte on logo.
@@ -98,8 +124,10 @@ nav:
       - Contributing to handbook: handbook/contribute.md
   - Squad Handbook:
     - handbook/index.md
-    - About and History: handbook/about.md
-    - Changelog: handbook/changelog.md
+    - About and History: 
+        - handbook/about/index.md
+        - Handbook Support: handbook/about/support.md
+        - Changelog: handbook/changelog.md
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md
