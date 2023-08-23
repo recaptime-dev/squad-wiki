@@ -1,5 +1,7 @@
 # Squad Handbook
 
+!!! warning "May contain broken links"
+
 The Recap Time Squad Handbook is the central repository for how we run the organization.
 As an open-source organization/company, the handbook is open to the world, and we welcome feedback and patches.
 
@@ -10,26 +12,31 @@ For internal version of the handbook, go to [our internal wiki](https://internal
 
 ## Company/Organization
 
-**General quick links**: [Subgroup README](https://mau.dev/RecapTime/squad/gitlab-profile/blob/main/README.md) | [Public Issue tracker](https://mau.dev/RecapTime/squad/issue-tracker/issues) - [sourcehut version](https://todo.sr.ht/~recaptime-dev/) - [Internal issue tracker](https://recaptime.jetbrains.space)
+**General quick links**: [Subgroup README](https://mau.dev/recaptime-dev/squad/gitlab-profile/blob/main/README.md) | [Public Issue tracker](https://mau.dev/recaptime-dev/squad/issue-tracker/issues) - [sourcehut version](https://todo.sr.ht/~recaptime-dev/) - [Internal issue tracker](https://recaptime.jetbrains.space/p/meta/issues)
 
 * [About the squad](../organization/index.md)
     * [History](../organization/history.md)
-* [Handbook](./about/index.md)
+* [About the Handbook](./about/index.md)
     * [How to Use](./handbook-usage.md)
     * [Handbook Style Guide](../style-guide/handbook.md)
     * [CHANGELOGs for Handbook](../handbook/changelog.md)
 * [Culture](../organization/culture)
     * [Community Code of Conduct](../community/code-of-conduct.md) - this applies even to squad members, in addition to regular org policies and BCoCE.
+* [Onboarding Docs](./onboarding/index.md)
+    * [Onboarding Checklist](./onboarding/checklist.md)
 
 ## Engineering and Open-source
 
+**General quick links**: [Subgroup README for Engineering](https://mau.dev/recaptime-dev/engineering/gitlab-profile/blob/main/README.md)
+and for [OSPO](https://mau.dev/recaptime-dev/ospo/gitlab-profile/blob/main/README.md)
+
 * [Engineering](/handbook/engineering)
-* [Open-source](/handbook/open-source)
-    * [OSPO/Open-source Ops](/handbook/open-source/office)
-    * [Legal Department and Open-source](handbook/legal/open-source) - Contributor Agreements, license reviews, etc.
 * [DevSecOps / Platform Engineering](/handbook/devsecops)
     * [Security](/handbook/devsecops/security)
     * [Infrastructure](/handbook/infra)
+* [Open-source](./open-source/index.md)
+    * [OSPO/Open-source Ops](./open-source/office.md)
+    * [Legal Department and Open-source](./open-source/legal.md) - Contributor Agreements, license reviews, etc.
 * [IT Adminops](/handbook/it-adminops)
 
 ## Community
