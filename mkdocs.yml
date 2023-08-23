@@ -114,20 +114,33 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Navigation
 nav:
   - Home: 
     - index.md
     - About the website: about.md
-    - Contribute:
-      - Getting started: contribute/index.md
-      - Local development: contribute/localdev.md
+    - Contribute to wiki:
+      - contribute/index.md
+      - Email patches 101: contribute/email.md
+      - For squad members: contribute/squad-members.md
       - Contributing to handbook: handbook/contribute.md
+      - "Maintainers' Guidelines": contribute/maintainer-guidelines.md
   - Squad Handbook:
     - handbook/index.md
     - About and History: 
         - handbook/about/index.md
+        - Handbook Usage: handbook/handbook-usage.md
         - Handbook Support: handbook/about/support.md
         - Changelog: handbook/changelog.md
+    - Onboarding Documentation:
+      - handbook/onboarding/index.md
+      - Onboarding Checklist: handbook/onboarding/checklist.md
+      - Onboarding Issue Tracker: "https://mau.dev/recaptime-dev/squad/onboarding"
+    - Engineering and Open-source:
+      - handbook/engineering/index.md
+      - Open-source at RecapTime.dev:
+        - handbook/open-source/index.md
+        - Open-source Operations/Projects Office: handbook/open-source/office.md
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md
