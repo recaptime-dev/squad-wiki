@@ -16,6 +16,7 @@ of [the Community Lores project][project-meta], the documentation and wiki depar
 
 Follow the crew at [our socials](/community/socials) for updates and more.
 
+* **August 2023**: Our website got revamped! [See this post for details.](https://recaptime.eu.org/2023/08/10/hello-world/)
 * **July 2023**: We're a bit worried about Miraheze's future, but we're still monitoring the situation. In the meanwhile, we're moving our wiki into Markdown as a backup. [Follow this issue](https://mau.dev/RecapTime/squad/issue-tracker/-/issues/7) for updates.
 
 _For archived news (more than 12 months OR when the entries go more than 5-10) please see the [news archive](./community/news-archive.md)._
@@ -32,7 +33,7 @@ _For archived news (more than 12 months OR when the entries go more than 5-10) p
 
 Like most of the projects we do, our public organizational wiki is open to anyone to improve upon. Since
 
-* [Contributing](contribute/index.md) - learn how you can use your knowledge, skills and time to help us maintain
+* [Contributing](./contribute/index.md) - learn how you can use your knowledge, skills and time to help us maintain
 projects and keep things tidy.
 * [Donate](./community/donate.md) - A record of previous purchases and costs are publicly releases here,
 alongside on Open Collective.
