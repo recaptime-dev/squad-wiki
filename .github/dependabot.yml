@@ -6,15 +6,9 @@ updates:
     rebase-strategy: auto
     schedule:
       interveral: "weekly"
-    assignees:
-      - RecapTimeSquad
-    reviewers:
-      - ajhalili2006
   - package-ecosystem: "pip"
+    rebase-strategy: auto
+    open-pull-requests-limit: 5
     directory: "/"
     schedule:
-      interval: "weekly"
-    assignees:
-      - RecapTimeSquad
-    reviewers:
-      - ajhalili2006
+      interval: "daily"
