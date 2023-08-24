@@ -1,0 +1,5 @@
+{
+    "commitId": $BUILD_COMMIT,
+    "buildId": $BUILD_ID,
+    "buildLogs": $BUILD_LOGS_URL
+}
