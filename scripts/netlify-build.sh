@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2034,SC2269
 
 set -x
 GIT_ROOTDIR=$(git rev-parse --show-toplevel)
@@ -13,5 +14,5 @@ if [[ $NETLIFY != "true" ]]; then
   exit 1
 fi
 
-bash "$GIT_ROOTDIR/scripts/build.sh"
-cat "$GIT_ROOTDIR/scripts/build-metadata.json" | envsubst > "$GIT_ROOTDIRsite/build-metadata.json"
+DEBUG=1 bash "$GIT_ROOTDIR/scripts/build.sh"
+envsubst < "${GIT_ROOTDIR}/scripts/build-metadata.json" > "${GIT_ROOTDIR}/site/build-metadata.json"
