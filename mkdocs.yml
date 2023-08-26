@@ -139,6 +139,8 @@ nav:
       - "Maintainers' Guidelines": contribute/maintainer-guidelines.md
   - Team:
     - organization/index.md
+    - organization/about.md
+    - organization/history.md
     - Squad Handbook:
       - handbook/index.md
       - About and History: 
@@ -151,6 +153,11 @@ nav:
         - Onboarding Checklist: handbook/onboarding/checklist.md
         - handbook/onboarding/issue-tracker-usage.md
         - Onboarding Issue Tracker: "https://mau.dev/recaptime-dev/squad/onboarding"
+      - Engineering and Open-source:
+        - handbook/engineering/index.md
+        - Open-source at RecapTime.dev:
+          - handbook/open-source/index.md
+          - Open-source Operations/Projects Office: handbook/open-source/office.md
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md
