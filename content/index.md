@@ -28,7 +28,8 @@ _For archived news (more than 12 months OR when the entries go more than 5-10) p
 
 ## Connect with the crew + community
 
-* **Join our community online**: [Ask us anything on Quora](https://recaptimedev.quora.com), [join on daily.dev](https://app.daily.dev/squads/recaptime-dev/kiKN6re-vP9r0fSdKdffsyJ2gYhcA2MAwBp8Xx62srI), [show all official and community spaces](./community/officials.md#spaces)
+* **Join our community online**: [Ask us anything on Quora](https://recaptimedev.quora.com), [join on daily.dev](https://app.daily.dev/squads/recaptime-dev/kiKN6re-vP9r0fSdKdffsyJ2gYhcA2MAwBp8Xx62srI)
+* [**Follow our socials**](./community/socials.md) or even better, [**subscribe to our newsletter over at Substack**](https://recaptime.substack.com) (we apologize for being in hitatus sometimes).
 
 ## Contribute
 

@@ -1,6 +1,7 @@
 # Squad Handbook
 
 !!! warning "May contain broken links"
+    The handbook is being polished behind the scenes, so some links might error out with 404s.
 
 The Recap Time Squad Handbook is the central repository for how we run the organization.
 As an open-source organization/company, the handbook is open to the world, and we welcome feedback and patches.
@@ -14,7 +15,8 @@ For internal version of the handbook, go to [our internal wiki](https://wiki.cre
 
 **General quick links**: [Subgroup README](https://mau.dev/recaptime-dev/squad/gitlab-profile/blob/main/README.md) | [Public Issue tracker](https://mau.dev/recaptime-dev/squad/issue-tracker/issues) - [sourcehut version](https://todo.sr.ht/~recaptime-dev/) - [Internal issue tracker](https://recaptime.jetbrains.space/p/meta/issues)
 
-* [About the squad](../organization/index.md)
+* [Org README](../organization/index.md)
+    * [About](https://recaptime.eu.org/about)
     * [History](../organization/history.md)
 * [About the Handbook](./about/index.md)
     * [How to Use](./handbook-usage.md)
@@ -30,8 +32,8 @@ For internal version of the handbook, go to [our internal wiki](https://wiki.cre
 **General quick links**: [Subgroup README for Engineering](https://mau.dev/recaptime-dev/engineering/gitlab-profile/blob/main/README.md)
 and for [OSPO](https://mau.dev/recaptime-dev/ospo/gitlab-profile/blob/main/README.md)
 
-* [Engineering](/handbook/engineering)
-* [DevSecOps / Platform Engineering](/handbook/devsecops)
+* [Engineering](./engineering/index.md)
+* [DevSecOps / Platform Engineering](./engineering/devsecops/index.md)
     * [Security](/handbook/devsecops/security)
     * [Infrastructure](/handbook/infra)
 * [Open-source](./open-source/index.md)
