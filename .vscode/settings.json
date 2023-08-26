@@ -6,5 +6,29 @@
             "domain": "mau.dev",
             "type": "GitLab"
         }
+    ],
+    "gitlens.autolinks": [
+        {
+            "alphanumeric": false,
+            "prefix": "META-T-",
+            "title": "[INTERNAL] org-wide meta issue #<num>",
+            "url": "https://recaptime.jetbrains.space/p/meta/issues/<num>"
+        },
+        {
+            "prefix": "WIKI-T-",
+            "title": "[INTERNAL] Squad Wiki issue #<num>",
+            "url": "https://recaptime.jetbrains.space/p/wiki/issues/<num>"
+        },
+        {
+            "alphanumeric": false,
+            "title": "org-wide meta issue #<num>",
+            "prefix": "META-",
+            "url": "https://mau.dev/recaptime-dev/squad/issue-tracker/issues/<num>"
+        },
+        {
+            "prefix": "WIKI-",
+            "title": "Squad Wiki issue #<num>",
+            "url": "https://mau.dev/recaptime-dev/squad/wiki/issues/<num>"
+        }
     ]
 }

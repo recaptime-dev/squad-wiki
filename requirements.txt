@@ -3,6 +3,7 @@ mkdocs-material==9.1.21
 mkdocs-material-extensions
 mkdocs-minify-plugin
 mkdocs-redirects
+mkdocs-git-revision-date-localized-plugin
 
 # markdown extensions
 pymdown-extensions

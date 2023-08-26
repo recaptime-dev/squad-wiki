@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "gitlab.gitlab-workflow",
+        "davidanson.vscode-markdownlint",
+        "vivaxy.vscode-conventional-commits",
+        "eamodio.gitlens"
+    ]
+}

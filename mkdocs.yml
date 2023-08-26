@@ -100,8 +100,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: recaptime-dev
+      repo: squad-wiki
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -109,10 +109,22 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+  - search
+  - social
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - redirects:
+      redirect_maps:
+        "organization/about.md": "https://recaptime.eu.org/about"
 
 # Navigation
 nav:
@@ -125,22 +137,20 @@ nav:
       - For squad members: contribute/squad-members.md
       - Contributing to handbook: handbook/contribute.md
       - "Maintainers' Guidelines": contribute/maintainer-guidelines.md
-  - Squad Handbook:
-    - handbook/index.md
-    - About and History: 
-        - handbook/about/index.md
-        - Handbook Usage: handbook/handbook-usage.md
-        - Handbook Support: handbook/about/support.md
-        - Changelog: handbook/changelog.md
-    - Onboarding Documentation:
-      - handbook/onboarding/index.md
-      - Onboarding Checklist: handbook/onboarding/checklist.md
-      - Onboarding Issue Tracker: "https://mau.dev/recaptime-dev/squad/onboarding"
-    - Engineering and Open-source:
-      - handbook/engineering/index.md
-      - Open-source at RecapTime.dev:
-        - handbook/open-source/index.md
-        - Open-source Operations/Projects Office: handbook/open-source/office.md
+  - Team:
+    - organization/index.md
+    - Squad Handbook:
+      - handbook/index.md
+      - About and History: 
+          - handbook/about/index.md
+          - Handbook Usage: handbook/handbook-usage.md
+          - Handbook Support: handbook/about/support.md
+          - Changelog: handbook/changelog.md
+      - Onboarding Documentation:
+        - handbook/onboarding/index.md
+        - Onboarding Checklist: handbook/onboarding/checklist.md
+        - handbook/onboarding/issue-tracker-usage.md
+        - Onboarding Issue Tracker: "https://mau.dev/recaptime-dev/squad/onboarding"
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md

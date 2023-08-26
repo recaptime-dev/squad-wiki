@@ -1,3 +1,4 @@
+
 ports:
 - port: 8000
 tasks:
@@ -10,3 +11,10 @@ tasks:
   command: |
     source .venv/bin/activate
     mkdocs serve
+
+vscode:
+  extensions:
+    - GitLab.gitlab-workflow
+    - DavidAnson.vscode-markdownlint
+    - vivaxy.vscode-conventional-commits
+    - eamodio.gitlens
