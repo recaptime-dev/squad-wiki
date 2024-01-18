@@ -3,13 +3,13 @@ title: Home
 
 # Welcome to Recap Time Squad Wiki!
 
-!!! warning "Migration in progress"
-    The old Miraheze wiki will be in process of archival and decommisioning until further notice.
+!!! warning "Wiki content is evolving and some may be missing"
+    We're working on it behind the scenes right now.
 
 The official wiki for everything about the brand, its members and the projects we do. Maintained as part
 of [the Community Lores project][project-meta], the documentation and wiki department of [Recap Time Squad][org].
 
-[project-meta]: ./projects/lorebooks.wiki.md
+[project-meta]: ./projects/lorebooks-wiki.md
 [org]: ./organization/index.md
 
 ## News
@@ -17,7 +17,7 @@ of [the Community Lores project][project-meta], the documentation and wiki depar
 Follow the crew at [our socials](/community/socials) for updates and more.
 
 * **August 2023**: Our website got revamped! [See this post for details.](https://recaptime.eu.org/2023/08/10/hello-world/)
-* **July 2023**: We're a bit worried about Miraheze's future, but we're still monitoring the situation. In the meanwhile, we're moving our wiki into Markdown as a backup. [Follow this issue](https://mau.dev/RecapTime/squad/issue-tracker/-/issues/7) for updates.
+* **July 2023**: We're a bit worried about Miraheze's future, but we're still monitoring the situation. In the meanwhile, we're moving our wiki into Markdown as a backup. [Follow this issue](https://mau.dev/recaptime-dev/squad/issue-tracker/-/issues/7) for updates.
 
 _For archived news (more than 12 months OR when the entries go more than 5-10) please see the [news archive](./community/news-archive.md)._
 
