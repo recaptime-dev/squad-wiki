@@ -6,7 +6,7 @@ all-remote online team.
 ## The Open-source Programs Office
 
 * **Team**: @recaptime-dev/ospo ([GitHub](https://github.com))
-* **Documentation**: <https://squad.lorebooks.eu.org/handbook/open-source/office>
+* **Documentation**: <https://wiki.recaptime.dev/handbook/open-source/office>
 
 ## Policies and Guidelines
 

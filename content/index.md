@@ -14,8 +14,9 @@ of [the Community Lores project][project-meta], the documentation and wiki depar
 
 ## News
 
-Follow the crew at [our socials](/community/socials) for updates and more.
+Follow the crew at [our socials](./community/officials.md#socials) for updates and more.
 
+* **March 2024**: We're officially moving to `recaptime.dev` behind the scenes, expect more soon.
 * **August 2023**: Our website got revamped! [See this post for details.](https://recaptime.eu.org/2023/08/10/hello-world/)
 * **July 2023**: We're a bit worried about Miraheze's future, but we're still monitoring the situation. In the meanwhile, we're moving our wiki into Markdown as a backup. [Follow this issue](https://mau.dev/recaptime-dev/squad/issue-tracker/-/issues/7) for updates.
 
@@ -27,7 +28,7 @@ _For archived news (more than 12 months OR when the entries go more than 5-10) p
 
 ## Connect with the crew + community
 
-* **Join our community online**: [Ask us anything on Quora](https://recaptimedev.quora.com), [join on daily.dev](https://app.daily.dev/squads/recaptime-dev/kiKN6re-vP9r0fSdKdffsyJ2gYhcA2MAwBp8Xx62srI)
+* **Join our community online**: [Ask us anything on Quora](https://recaptimedev.quora.com), [join on daily.dev](https://app.daily.dev/squads/recaptime-dev/kiKN6re-vP9r0fSdKdffsyJ2gYhcA2MAwBp8Xx62srI), [show all official and community spaces](./community/officials.md#spaces)
 
 ## Contribute
 

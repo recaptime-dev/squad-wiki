@@ -7,7 +7,7 @@ As an open-source organization/company, the handbook is open to the world, and w
 
 Most of the handbook written here are based off and inspired by [GitLab Team Handbook](https://about.gitlab.com/handbook), with major modifications to adapt to our needs.
 
-For internal version of the handbook, go to [our internal wiki](https://internal.squad.lorebooks.eu.org/handbook) and sign in with your [Internal SSO account](./company/internal-sso.md).
+For internal version of the handbook, go to [our internal wiki](https://wiki.crew.recaptime.dev/handbook) and sign in with your [Internal SSO account](./company/internal-sso.md).
 
 
 ## Company/Organization

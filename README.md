@@ -8,17 +8,17 @@ The new home for squad's organizational wiki and the handbook itself, built with
 
 [^3]: That's just a project wiki redirect for `mkdocs-material` PyPi package on our side, will be enabled soon.
 
-If you're a squad member (or someone who get allowlisted for access) and you need the internal version, [sign in here](https://internal.squad.lorebooks.eu.org) or [learn more in handbook](https://squad.lorebooks.eu.org/go/internal-handbook).
+If you're a squad member (or someone who get allowlisted for access) and you need the internal version, [sign in here](https://internal.squad.lorebooks.eu.org) or [learn more in handbook](https://wiki.recaptime.dev/go/internal-handbook).
 
 ## Where it's been deployed
 
 We use Netlify to host stuff, although we use GitLab CI to do the deployment itself.
-The website is accessible at [`squad.lorebooks.eu.org`](https://squad.lorebooks.eu.org) [^2] while we're ironing out
+The website is accessible at [`wiki.recaptime.dev`](https://wiki.recaptime.dev) [^2] while we're ironing out
 the migration plan until further notice.[^1]
 
-## Contributing to thr wiki
+## Contributing to the wiki
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for details. By submitting patches, you agree to the Community Code of Conduct and Linux DCO.
 
 [^1]: We'll be working on the deployments itself soonish.
-[^2]: if you'r coming from `wiki.recaptime.eu.org`, you should be autoredirected behind the scenes.
+[^2]: In the past, it is accessible through `squad.lorebooks.eu.org`, but since we purchased the `recaptime.dev` domain, we'll be doing a redirect in the future.
