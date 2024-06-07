@@ -5,10 +5,14 @@ updates:
     package-ecosystem: "github-actions"
     rebase-strategy: auto
     schedule:
-      interveral: "weekly"
+      interval: "weekly"
+    assignees:
+      - ajhalili2006
   - package-ecosystem: "pip"
     rebase-strategy: auto
     open-pull-requests-limit: 5
     directory: "/"
     schedule:
       interval: "daily"
+    assignees:
+      - ajhalili2006
