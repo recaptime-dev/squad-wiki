@@ -4,16 +4,22 @@
   "description": "An reincarnation of the handbook repository, but the entirety of Recap Time Squad Wiki in Markdown during possible Miraheze shutdown and migration.",
   "main": "index.js",
   "scripts": {
-    "dev": "./.venv/bin/mkdocs serve --use-directory-urls --dirtyreload",
-    "build": "./scripts/build.sh"
+    "dev": "pipenv run dev",
+    "build": "pipenv run build",
+    "deploy:prod": "wrangler pages deploy ./public --project-name recaptimedev-wiki --branch main",
+    "deploy:preview": "wrangler pages deploy ./public --project-name recaptimedev-wiki --skip-caching"
   },
   "repository": {
     "type": "git",
-    "url": "https://mau.dev/RecapTime/squad-wiki"
+    "url": "https://mau.dev/recaptime-dev/squad/wiki"
   },
   "author": "",
   "license": "MPL-2.0 AND CC-BY-SA-4.0",
   "devDependencies": {
     "netlify-cli": "^17.23.2"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.22.0",
+    "wrangler": "^3.86.1"
   }
 }

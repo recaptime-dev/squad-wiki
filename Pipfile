@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs-material = "*"
+mkdocs-material-extensions = "*"
+mkdocs-minify-plugin = "*"
+mkdocs-redirects = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+pymdown-extensions = "*"
+pillow = "*"
+cairosvg = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+dev = "mkdocs serve --watch ./overrides"
+build = "mkdocs build --site-dir ./public"
