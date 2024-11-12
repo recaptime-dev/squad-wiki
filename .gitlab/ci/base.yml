@@ -1,0 +1,15 @@
+image:
+  name: dock.mau.dev/andreijiroh-dev/docker-images/mkdocs-material:latest
+  entrypoint: ["/bin/bash", "-l", "-c"] # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/2109#note_47480476
+
+stages:
+  - test
+  - build
+
+default:
+  tags:
+    - amd64 # Currently the CI image only available on amd64 for now
+  before_script:
+    - pipenv install --ignore-pipfile --deploy
+    - npm ci
+    - curl --silent "https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/download-secure-files/-/raw/main/installer" | bash

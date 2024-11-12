@@ -1,14 +1,18 @@
+# mediawiki compat redirects
 /wiki/Main_Page /
 /wiki/Handbook:Contents /handbook
-/wiki/User:* https://profiles.loreooks.eu.org/:splat
-/wiki/Portal:Contact_Squad https://recaptime.eu.org/contact
+/wiki/User:* /profiles/:splat
+/wiki/Portal:Contact_Squad https://recaptime.dev/contact
+
+# aliases
+/projects/lorebooks.wiki /projects/lorebooks-wiki
 
 # keybase proofs
 /keybase.txt /.well-known/keybase.txt
-/security.txt https://recaptime.eu.org/.well-known/security.txt
-/.well-known/security.txt https://recaptime.eu.org/.well-known/security.txt
+/security.txt https://recaptime.dev/.well-known/security.txt
+/.well-known/security.txt https://recaptime.dev/.well-known/security.txt
 
 # quick golinks
 /go/internal-handbook /handbook/handbook-usage#internal-handbook
 /go/onboarding /handbook/company/general-onboarding.md
-/go/coc https://policies.recaptime.eu.org/coc
+/go/coc https://policies.recaptime.dev/code-of-conduct
