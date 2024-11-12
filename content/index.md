@@ -1,44 +1,36 @@
+---
 title: Home
+tags:
+  - Meta
 ---
 
-# Welcome to Recap Time Squad Wiki!
+# Welcome to Recap Time Squad Wiki
 
-!!! warning "Wiki content is evolving and some may be missing"
-    We're working on it behind the scenes right now.
-
-The official wiki for everything about the brand, its members and the projects we do. Maintained as part
-of [the Community Lores project][project-meta], the documentation and wiki department of [Recap Time Squad][org].
+The official wiki for everything about the organization, its members and the projects we do.
+Maintained as part of [the Community Lorebooks project][project-meta], the home of
+[Recap Time Squad][org]'s documentation projects and our free subdomain service for
+digital garden and documentation sites. Think of it as the Wikimedia Foundation's [Meta-Wiki],
+where we coordinate and document about Recap Time Squad projects, its history and the people
+behind them.
 
 [project-meta]: ./projects/lorebooks-wiki.md
 [org]: ./organization/index.md
+[Meta-Wiki]: https://meta.wikimedia.org
 
-## News
+## News and events
 
-Follow the crew at [our socials](./community/officials.md#socials) for updates and more.
+* **November 2024**: Recap Time Squad is now [fiscally-sponsored] by [Hack Club] and ready
+to accept donations. A updated donation page in the main website itself will be planned
+soon.
 
-* **March 2024**: We're officially moving to `recaptime.dev` behind the scenes, expect more soon.
-* **August 2023**: Our website got revamped! [See this post for details.](https://recaptime.eu.org/2023/08/10/hello-world/)
-* **July 2023**: We're a bit worried about Miraheze's future, but we're still monitoring the situation. In the meanwhile, we're moving our wiki into Markdown as a backup. [Follow this issue](https://mau.dev/recaptime-dev/squad/issue-tracker/-/issues/7) for updates.
+[fiscally-sponsored]: ./organization/legal/fiscal-sponsorship.md
+[Hack Club]: ./community/hackclub.md
 
-_For archived news (more than 12 months OR when the entries go more than 5-10) please see the [news archive](./community/news-archive.md)._
+## Where to start?
 
-## Getting started / Explore
-
-* Explore our projects we're actively working on or adopt an archived project.
-
-## Connect with the crew + community
-
-* **Join our community online**: [Ask us anything on Quora](https://recaptimedev.quora.com), [join on daily.dev](https://app.daily.dev/squads/recaptime-dev/kiKN6re-vP9r0fSdKdffsyJ2gYhcA2MAwBp8Xx62srI)
-* [**Follow our socials**](./community/socials.md) or even better, [**subscribe to our newsletter over at Substack**](https://recaptime.substack.com) (we apologize for being in hitatus sometimes).
-
-## Contribute
-
-Like most of the projects we do, our public organizational wiki is open to anyone to improve upon. Since
-
-* [Contributing](./contribute/index.md) - learn how you can use your knowledge, skills and time to help us maintain
-projects and keep things tidy.
-* [Donate](./community/donate.md) - A record of previous purchases and costs are publicly releases here,
-alongside on Open Collective.
+* [The team handbook](./handbook/index.md)
+* [Organizational Docs](./organization/index.md)
+* [Projects](./projects/index.md)
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi

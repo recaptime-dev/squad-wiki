@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{{ 'assets/stylesheets/mkdocs-material.css' | url }}">
+{% endblock %}
+
+{% block announce %}
+  <!-- Add announcement here, including arbitrary HTML -->
+   <p>
+    <img alt="🚧" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f6a7.svg" title=":construction:">
+    <strong>We're freshening up the wiki content, so this site will be temporarily on maintenance mode.</strong>
+    We'll be accept community contributions once we're finally ironed out things here.
+   </p>
+{% endblock %}

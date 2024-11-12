@@ -5,8 +5,8 @@ site_name: RecapTime.dev Wiki
 site_url: "https://wiki.recaptime.dev"
 site_author: Recap Time Squad and contributors
 site_description: >-
-  The squad wiki, consists of both the team handbook, our organizational documents,
-  and more.
+  The home of Recap Time Squad's team handbook, its history
+  througout the years, and more
 
 # Lock the use-directory-urls flag
 use_directory_urls: true
@@ -19,21 +19,22 @@ edit_uri: blob/main/content/
 
 # Copyright
 copyright: >-
-  Copyright &copy; 2023-present Recap Time Squad (formerly The Pins Team) and its contributors,
-  licensed under CC BY-SA 4.0 for Markdown content and original media and MPL-2.0 for code,
-  unless otherwise specified.
+  Copyright &copy; 2023-present Recap Time Squad and contributiors,
+  wiki content licensed under CC-BY-SA-4.0 and code samples under MPL-2.0.
 
+# Theme settings
 theme:
   # https://github.com/squidfunk/mkdocs-material
   name: material
+  custom_dir: overrides
 
   # for the sidebar/site icon on navbar
   icon:
-    logo: material/library
+    logo: material/book-multiple-outline
     repo: fontawesome/brands/gitlab
 
   features:
-    - announce.dismiss
+    #- announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
@@ -48,7 +49,7 @@ theme:
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    #- navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -57,22 +58,27 @@ theme:
     - toc.follow
     # - toc.integrate
 
-
-  # theme for different themes
-  # TODO: Match with our color platte on logo.
   palette:
-    - scheme: default
-      primary: green
-      accent: lime
+    - media: "(prefers-color-scheme)"
+      primary: pink
+      accent: cyan
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: green
-      accent: lime
-      toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-auto
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 
 # Extensions
 markdown_extensions:
@@ -118,29 +124,33 @@ markdown_extensions:
 plugins:
   - search
   - social
-  - tags
+  - tags:
+      tags_file: tags.md
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
   - redirects:
       redirect_maps:
-        "organization/about.md": "https://recaptime.eu.org/about"
+        "organization/about.md": "https://recaptime.dev/about"
+        "history.md": "organization/history.md"
 
 # Navigation
 nav:
-  - Home: 
+  - Meta: 
     - index.md
     - About the website: about.md
+    - copyright.md
     - Contribute to wiki:
       - contribute/index.md
       - Email patches 101: contribute/email.md
       - For squad members: contribute/squad-members.md
       - Contributing to handbook: handbook/contribute.md
       - "Maintainers' Guidelines": contribute/maintainer-guidelines.md
-  - Team:
+  - Organization:
     - organization/index.md
-    - organization/about.md
+    - Anout Recap Time Squad: https://recaptime.dev/about
     - organization/history.md
+    - Policies: https://policies.recaptime.dev
     - Squad Handbook:
       - handbook/index.md
       - About and History: 
@@ -161,3 +171,30 @@ nav:
   - Community:
     - Projects:
       - Community Lores: projects/lorebooks.wiki.md
+  - Donate: https://hcb.hackclub.com/donations/start/recaptime-dev
+
+extra:
+  generator: true
+  tags:
+    Meta: meta
+    RecapTime.dev: recaptime-dev
+    Hack Club: hackclub
+    Community Profiles: profiles
+    Team Handbook: handbook
+    Projects: projects
+  social:
+    - icon: simple/mastodon
+      link: https://mastodon.xyz/@RecapTimeSquad
+      name: Fediverse
+    - icon: simple/bluesky
+      link: https://bsky.app/profile/recaptime.dev
+      name: Bluesky
+    - icon: simple/github
+      link: https://github.com/recaptime-dev
+      name: GitHub
+    - icon: simple/gitlab
+      link: https://mau.dev/recaptime-dev
+      name: GitLab
+    - icon: octicons/globe-16
+      link: https://recaptime.dev
+      name: Main website

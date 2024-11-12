@@ -1,3 +1,7 @@
-# About the crew
+# History of Recap Time Squad
 
-!!! warning "Content being polished out behind the scenes"
+!!! warning "This is a working draft"
+
+## Present Days
+
+## The Beginning

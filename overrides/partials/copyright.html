@@ -1,0 +1,32 @@
+{#-
+  SPDX-License-Identifier: MIT
+    
+  Generally copied from upstream sources: https://github.com/squidfunk/mkdocs-material/blob/79515879d159ee807db61687c7d83aa63a8e9905/material/templates/partials/copyright.html
+-#}
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+  <br>
+  Recap Time Squad is <a
+    href="https://hackclub.com/fiscal-sponsorship"
+    target="_blank"
+    rel="noopener"
+  >fiscally-sponsored</a> by <a
+    href="https://hackfoundation.org"
+    target="_blank"
+    rel="noopener"
+  >The Hack Foundation</a> (d.b.a <a
+    href="https://hackclub.com"
+    target="_blank"
+    rel="noopener"
+  >Hack Club</a>), a US 501(c)(3) non-profit (EIN: 81-2908499).
+</div>
