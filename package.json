@@ -16,7 +16,7 @@
   "author": "",
   "license": "MPL-2.0 AND CC-BY-SA-4.0",
   "devDependencies": {
-    "netlify-cli": "^17.23.2"
+    "netlify-cli": "^17.37.2"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.22.0",
