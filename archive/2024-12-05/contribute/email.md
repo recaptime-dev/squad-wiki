@@ -7,7 +7,9 @@ Even through we do use GitHub + GitLab, mishaps on the send-MRs-via-email config
 
 If you never experienced the Git email workflow before, try [following the tutorial](https://git-send-email.io/) first, courtesy of [sourcehut](https://sourcehut.org/).
 
-Note that you do not need to sign up to sourcehut's hosted instance as a contributor, although it's help with associating patches to your username.
+Note that you do not need to sign up to sourcehut's hosted instance as a contributor,
+although it's help with associating patches to your username, as well as using
+web features that requires an account.
 
 ## Setting up
 
@@ -28,6 +30,8 @@ git config --global sendemail.annotate yes
 # so we require anyone to sign-off in accordance to the terms of Linux DCO.
 git config format.signOff yes
 ```
+
+##
 
 ## See also
 

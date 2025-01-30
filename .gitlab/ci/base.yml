@@ -6,6 +6,9 @@ stages:
   - test
   - build
 
+variables:
+  GIT_DEPTH: "0"
+
 default:
   tags:
     - amd64 # Currently the CI image only available on amd64 for now

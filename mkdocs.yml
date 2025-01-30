@@ -123,7 +123,8 @@ markdown_extensions:
 
 plugins:
   - search
-  - social
+  - social:
+      enabled: !ENV [CI, false]
   - tags:
       tags_file: tags.md
   - git-revision-date-localized:
@@ -138,14 +139,10 @@ plugins:
 nav:
   - Meta: 
     - index.md
-    - About the website: about.md
-    - copyright.md
-    - Contribute to wiki:
-      - contribute/index.md
-      - Email patches 101: contribute/email.md
-      - For squad members: contribute/squad-members.md
-      - Contributing to handbook: handbook/contribute.md
-      - "Maintainers' Guidelines": contribute/maintainer-guidelines.md
+    - About: about.md
+    - Copyright information: copyright.md
+    - Contribute: contribute.md
+    - Back to the website: https://recaptime.dev
   - Organization:
     - organization/index.md
     - Anout Recap Time Squad: https://recaptime.dev/about
@@ -153,24 +150,13 @@ nav:
     - Policies: https://policies.recaptime.dev
     - Squad Handbook:
       - handbook/index.md
-      - About and History: 
-          - handbook/about/index.md
-          - Handbook Usage: handbook/handbook-usage.md
-          - Handbook Support: handbook/about/support.md
-          - Changelog: handbook/changelog.md
-      - Onboarding Documentation:
-        - handbook/onboarding/index.md
-        - Onboarding Checklist: handbook/onboarding/checklist.md
-        - handbook/onboarding/issue-tracker-usage.md
-        - Onboarding Issue Tracker: "https://mau.dev/recaptime-dev/squad/onboarding"
-      - Engineering and Open-source:
-        - handbook/engineering/index.md
-        - Open-source at RecapTime.dev:
-          - handbook/open-source/index.md
-          - Open-source Operations/Projects Office: handbook/open-source/office.md
+      - Onboarding:
+        - Onboarding README: handbook/onboarding/index.md
+        - handbook/onboarding/preflight-checks.md
   - Community:
     - Projects:
-      - Community Lores: projects/lorebooks.wiki.md
+      - projects/index.md
+      - Community Lores: projects/lorebooks-wiki.md
   - Donate: https://hcb.hackclub.com/donations/start/recaptime-dev
 
 extra:

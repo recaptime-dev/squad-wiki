@@ -30,5 +30,13 @@
             "title": "Squad Wiki issue #<num>",
             "url": "https://mau.dev/recaptime-dev/squad/wiki/issues/<num>"
         }
+    ],
+    "yaml.schemas": {
+        "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json": ".gitlab/ci/*.yml"
+    },
+    "conventionalCommits.scopes": [
+        "content",
+        "deps",
+        "gitlab-ci"
     ]
 }

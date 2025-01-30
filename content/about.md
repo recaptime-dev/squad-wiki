@@ -26,14 +26,16 @@ path to community-led maintainership (or as Open Collective and others
 call it "exit to community" (E2C)).
 2. **Formulation and maintenance of [Recap Time Squad projects](./projects/index.md)** through documentation,
 coordination and planning. The central venue for discussion is
-our [Zulip Cloud instance] and the [`meta.recaptime.dev`](./organization/sourcehut/mailing-lists.md) mailing list on sourcehut.
+our [Zulip Cloud instance], [meta issue trackers] and the [`meta.recaptime.dev`](./organization/sourcehut/mailing-lists.md) mailing list on sourcehut.
 
 [Zulip Cloud instance]: ./organization/zulip.md
+[meta issue trackers]: ./handbook/issue-trackers.md
 
 ## Companion
 
 Since the Squad Wiki exist as a static site, we build companion tooling
-around it to ensure
+around it to ensure that it is well supported even though we do not
+run a MediaWiki instance ourselves.
 
 * [**Zulip**](./organization/zulip.md) - We use Zulip both for development and coordination between the community
 and the team as we work in the public.
