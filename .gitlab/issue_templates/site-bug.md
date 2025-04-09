@@ -4,8 +4,8 @@ Please read this!
 Before opening a new issue, make sure to search for keywords in the issues
 filtered by the "regression" or "type::bug" label:
 
-- https://mau.dev/recaptime-dev/squad/wiki/-/issues?label_name%5B%5D=regression
-- https://mau.dev/recaptime-dev/squad/wiki/-/issues/issues?label_name%5B%5D=type::bug
+- https://gitlab.com/recaptime-dev/squad/wiki/-/issues?label_name%5B%5D=regression
+- https://gitlab.com/recaptime-dev/squad/wiki/-/issues/issues?label_name%5B%5D=type::bug
 
 and verify the issue you're about to submit isn't a duplicate.
 
@@ -21,12 +21,6 @@ newer version (if ours outdated).
 ### Steps to reproduce
 
 <!-- Describe how one can reproduce the issue - this is very important. Please use an ordered list. -->
-
-### Example Project
-
-<!-- If possible, please create an example project here on GitLab.com that exhibits the problematic 
-behavior, and link to it here in the bug report. If you are using an older version of GitLab, this 
-will also determine whether the bug is fixed in a more recent version. -->
 
 ### What is the current *bug* behavior?
 
@@ -45,7 +39,8 @@ will also determine whether the bug is fixed in a more recent version. -->
 
 <!--
 
-
+Visit Pipelines -> Jobs and look for latest success deploy. Copy the deploy job URL and
+paste it here.
 
 -->
 

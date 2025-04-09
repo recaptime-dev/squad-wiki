@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitLab issue tracker for wiki
+    url: https://gitlab.com/recaptime-dev/squad/wiki
+    about: We're using GitLab SaaS for triaging issues. Please go there instead.
