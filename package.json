@@ -16,10 +16,10 @@
   "author": "",
   "license": "MPL-2.0 AND CC-BY-SA-4.0",
   "devDependencies": {
-    "netlify-cli": "^17.23.2"
+    "netlify-cli": "^20.0.3"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.22.0",
-    "wrangler": "^3.86.1"
+    "wrangler": "^4.12.0"
   }
 }
